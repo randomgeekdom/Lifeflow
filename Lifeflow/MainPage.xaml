@@ -35,6 +35,14 @@
                 Clicked="OnCounterClicked"
                 HorizontalOptions="Center" />
 
+
+            <Button
+                x:Name="GoToEdit"
+                Text="Go to Edit"
+                SemanticProperties.Hint="Counts the number of times you click"
+                Clicked="GoToEdit_Clicked"
+                HorizontalOptions="Center" />
+
         </VerticalStackLayout>
     </ScrollView>
 
